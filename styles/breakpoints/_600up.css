@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+.flex {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about__inner {
+  padding: 50px;
+}
+
+.about__texts, .about__img {
+  flex-basis: 47%;
+}
+
+.about__texts {
+  display: flex;
+  align-items: flex-end;
+}
+
+.skill__inner {
+  padding: 50px;
+}
+
+.skill__texts, .skill__img {
+  flex-basis: 47%;
+}
+
+.skill__texts {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer .logo {
+  justify-content: flex-start;
+}
+
+.footer__li {
+  margin-left: 0;
+  margin-right: 30px;
+}
